@@ -10,7 +10,7 @@
   top: 44px;
   margin: auto;
   max-width: 375px;
-  background-image: url('./assets/Rectangle\ 4301.png');
+  background-image: url('./assets/Backgroundimage.png');
   background-position: center center;
   background-size: cover;
   overflow-y: scroll;
@@ -147,7 +147,7 @@ left: 36px; */
 .shareWrapper {
   width: 343px;
   height: 80px;
-  background: #FFFFFF33;
+  background:rgba(255, 255, 255, 0.2);
   box-shadow: 0px 2px 16px 0px #0000001A;
   border-radius: 12px;
 
@@ -166,7 +166,7 @@ left: 36px; */
   width: 343px;
   height: 382px;
   border-radius: 12px;
-  background: #FFFFFF33;
+  background:rgba(255, 255, 255, 0.2);
   margin: 15px 16px 0px 0px;
   /* padding: 6px; */
 }
@@ -232,7 +232,7 @@ left: 36px; */
   width: 343px;
   height: 174px;
   top: 513px;
-  background: #FFFFFF33;
+  background: rgba(255, 255, 255, 0.2);
   box-shadow: 0px 2px 16px 0px #0000001A;
   /* padding: 16px; */
   border-radius: 12px;
@@ -305,13 +305,10 @@ left: 36px; */
   width: 343px;
   height: 223px;
   top: 702px;
-  background: #FFFFFF33;
+  background:rgba(255, 255, 255, 0.2);
   box-shadow: 0px 2px 16px 0px #0000001A;
   margin-top: 13px;
   border-radius: 12px;
-  /* background-image: url('./assets/fa6-solid_quote-left.png');
-  background-repeat: no-repeat;
-  background-position: 10px 10px; */
 }
 
 .testimonalText {
@@ -477,7 +474,7 @@ left: 22px; */
 .myskills {
   width: 343px;
   height: 90px;
-  background: #FFFFFF33;
+  background:rgba(255, 255, 255, 0.2);
   box-shadow: 0px 2px 16px 0px #0000001A;
 display: flex;
   margin-top: 15px;
@@ -530,8 +527,8 @@ text-align: left;
 
 
 .vector{
-  width: 6px;
-height: 11.334192276000977px;
+  width: 10px;
+height: 14.334192276000977px;
 border: 2px;
 margin-left: 97px;
 margin-top: 33px;
@@ -542,7 +539,7 @@ margin-top: 33px;
 .mybio {
   width: 343px;
   height: 48px;
-  background: #FFFFFF33;
+  background:rgba(255, 255, 255, 0.2);
   box-shadow: 0px 2px 16px 0px #0000001A;
 
   margin-top: 15px;
@@ -566,14 +563,15 @@ margin-top: 12px;
   height: 17px;
   border: 2px;
   margin-top: 16px;
-  margin-left: 5px;
+  margin-left: 6px;
+  /* padding:6px 9px 6px 9px ; */
 
 }
 
 .Need {
   width: 343px;
   height: 198px;
-  background: #FFFFFF33;
+  background: rgba(255, 255, 255, 0.2);
   box-shadow: 0px 2px 16px 0px #0000001A;
   margin-top: 15px;
   border-radius: 12px;
@@ -646,7 +644,8 @@ color: #FFFFFF;
   height: 251px;
 
 
-  background: #FFFFFF33;
+  background:rgba(255, 255, 255, 0.2);
+  /* box-shadow: 0px 2px 16px 0px #0000001A; */
   box-shadow: 0px 2px 16px 0px #0000001A;
 
   margin-top: 15px;
@@ -726,3 +725,6 @@ height: 42px;
 
 
 }
+
+
+
