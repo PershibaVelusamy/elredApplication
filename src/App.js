@@ -130,46 +130,6 @@ function App() {
 
 
 
-          {/* <div className='testiWrapper'>
-
-            <div class="scroll-container scrollDisplay">
-              <div>
-                <img className="quotedimg" src={quotes} alt='quotesimg' />
-                <div className='pinned'>
-                  <span className='pinnedText'>14 Dec 2022</span>
-                </div> <img className='pinnedimg' src={pinlogo} alt='pinned' />
-                <p className='imgaeTExtmulti'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,... </p>
-                <img className='Propic' src={prosmall} alt='eclips'/>
-                <p className='proName'>Saurabh Goswamy</p>
-                <img src={picbanner} alt="Los Angeles" className="testimonalimage" />
-            
-              </div>
-              <div>
-                {/* <img className="quotedimg" src={quotes} alt='quotesimg' />
-                <div className='pinned'>
-                  <span className='pinnedText'>14 Dec 2022</span>
-                </div> <img className='pinnedimg' src={pinlogo} alt='pinned' />
-                <p className='imgaeTExtmulti'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,... </p> */}
-          {/* <img src={picbanner} alt="Los Angeles" className="testimonalimage" />
-              </div>
-              <div> */}
-          {/* <img className="quotedimg" src={quotes} alt='quotesimg' />
-                <div className='pinned'>
-                  <span className='pinnedText'>14 Dec 2022</span>
-                </div> <img className='pinnedimg' src={pinlogo} alt='pinned' />
-                <p className='imgaeTExtmulti'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,... </p> */}
-          {/* <img src={picbanner} alt="Los Angeles" className="testimonalimage" />
-              </div> */}
-
-
-
-          {/* </div>
-          </div> */}
-
-
-
-
-
         </div>
         <div className='myskills'>
           <img src={skillimg} alt="skill" />
