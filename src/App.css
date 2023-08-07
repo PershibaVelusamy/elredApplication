@@ -325,12 +325,61 @@ left: 36px; */
 }
 
 .testiWrapper {
-  position: relative;
-  display: inline;
-  top: 18px;
-  left: 12px;
+
+ position: relative;
+ overflow-x: scroll !important;
+ overflow-y: hidden;
+ white-space: nowrap;
+ -ms-overflow-style: none;
+ scrollbar-width: none;
+margin-top: 10px;
+
 
 }
+.testiWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.subTestimonal{
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: initial;
+  width: 307px;
+  height: 149px;
+
+  /* padding: 14px 20px 18px 20px; */
+  border-radius: 20px;
+  border: 1px solid #FFFFFF80;
+  margin-left: 13px;
+    display: inline-flex;
+    position: relative;
+    top: 10px;
+
+}
+.testimonalimage {
+
+width: 307px;
+height: 149px;
+border-radius: 18px;
+
+
+}
+
+
+.quotedimg {
+  position: absolute;
+  bottom: 108px;
+  left: 10px;
+}
+.Propic{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 115px;
+  left: 25px;
+
+}
+
 
 .scroll-container {
 
@@ -351,8 +400,7 @@ display: flex;
 
 .imgaeTExtmulti {
   width: 259px;
-height: 52px;
-
+  height: 52px;
   font-family: Poppins;
   font-size: 17px;
   font-weight: 500;
@@ -362,51 +410,39 @@ height: 52px;
   color: #FFFFFF;
   position: absolute;
   margin-top: 48px;
-  margin-right: 24px;
-  margin-left: 24px;
+  top: 1px;
   word-wrap: break-word;
   overflow: hidden;
   text-overflow: ellipsis;
+  left: 28px;
 }
-.Propic{
-  position: absolute;
-  margin-top: 113px;
-  margin-left: 20px;
-  width: 24px;
-height: 24px;
-/* top: 136px;
-left: 22px; */
 
-
-}
 .proName{
+ 
   position: absolute;
-  margin-top: 116px;
-  margin-left: 50px;
+  /* margin-top: 10px; */
+  /* margin-left: 50px; */
   font-size: 16px;
   font-weight: 600;
   line-height: 18px;
   letter-spacing: 0em;
   text-align: left;
-  width: 117px;
+  width: 147px;
   height: 18px;
   color: #FFFFFF;
-    
+  top: 117px;
+  left: 57px;
+
 }
 
-.quotedimg {
-  width: 52px;
-  height: 70px;
-  position: absolute;
-  margin-left: 11px;
-  top: -23px;
-}
 
 .pinned {
-  display: flex;
   position: absolute;
-
-
+  width: 98px;
+  height: 18px;
+  top: -15px;
+  text-align: right;
+  left: 178px;
 
 }
 
@@ -449,14 +485,6 @@ left: 22px; */
 
 }
 
-.testimonalimage {
-  width: 307px;
-  height: 149px;
-  top: 21px;
-  border-radius: 18px;
-  background: linear-gradient(180.06deg, rgba(0, 0, 0, 0) -55.55%, #004959 99.95%);
-  margin-right: 9px;
-}
 
 .testimonalSeeAll {
 

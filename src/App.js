@@ -88,6 +88,49 @@ function App() {
           <div className='intextWrap'><span className='testimonalText'> Testimonals </span> <span className='testimonalSeeAll'>See all</span></div>
 
           <div className='testiWrapper'>
+            <div className='subTestimonal'>
+              <img src={picbanner} alt="Los Angeles" className="testimonalimage" />
+              <img className="quotedimg" src={quotes} alt='quotesimg' />
+              <p className='imgaeTExtmulti'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,... </p>
+              <img className='Propic' src={prosmall} alt='eclips' />
+              <p className='proName'>Saurabh Goswamy</p>
+              <div className='pinned'>
+                <span className='pinnedText'>14 Dec 2022</span>
+                <img src={pinlogo} alt='pinned' />
+              </div>
+
+            </div>
+            <div className='subTestimonal'>
+              <img src={picbanner} alt="Los Angeles" className="testimonalimage" />
+              <img className="quotedimg" src={quotes} alt='quotesimg' />
+              <p className='imgaeTExtmulti'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,... </p>
+              <img className='Propic' src={prosmall} alt='eclips' />
+              <p className='proName'>Saurabh Goswamy</p>
+              <div className='pinned'>
+                <span className='pinnedText'>14 Dec 2022</span>
+                <img src={pinlogo} alt='pinned' />
+              </div>
+
+            </div>
+            <div className='subTestimonal'>
+              <img src={picbanner} alt="Los Angeles" className="testimonalimage" />
+              <img className="quotedimg" src={quotes} alt='quotesimg' />
+              <p className='imgaeTExtmulti'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,... </p>
+              <img className='Propic' src={prosmall} alt='eclips' />
+              <p className='proName'>Saurabh Goswamy</p>
+              <div className='pinned'>
+                <span className='pinnedText'>14 Dec 2022</span>
+                <img src={pinlogo} alt='pinned' />
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+
+          {/* <div className='testiWrapper'>
 
             <div class="scroll-container scrollDisplay">
               <div>
@@ -107,21 +150,21 @@ function App() {
                   <span className='pinnedText'>14 Dec 2022</span>
                 </div> <img className='pinnedimg' src={pinlogo} alt='pinned' />
                 <p className='imgaeTExtmulti'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,... </p> */}
-                <img src={picbanner} alt="Los Angeles" className="testimonalimage" />
+          {/* <img src={picbanner} alt="Los Angeles" className="testimonalimage" />
               </div>
-              <div>
-                {/* <img className="quotedimg" src={quotes} alt='quotesimg' />
+              <div> */}
+          {/* <img className="quotedimg" src={quotes} alt='quotesimg' />
                 <div className='pinned'>
                   <span className='pinnedText'>14 Dec 2022</span>
                 </div> <img className='pinnedimg' src={pinlogo} alt='pinned' />
                 <p className='imgaeTExtmulti'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,... </p> */}
-                <img src={picbanner} alt="Los Angeles" className="testimonalimage" />
-              </div>
+          {/* <img src={picbanner} alt="Los Angeles" className="testimonalimage" />
+              </div> */}
 
 
 
-            </div>
-          </div>
+          {/* </div>
+          </div> */}
 
 
 
@@ -188,7 +231,7 @@ function App() {
                 @chachachaudhari
               </span>
             </p>
-            
+
           </div>
           <p className='timestamp'><span className='seconds'>1s
           </span><span> 241 likes </span></p>
@@ -205,19 +248,19 @@ function App() {
                 @chachachaudhari
               </span>
             </p>
-            
+
           </div>
           <p className='timestamp'><span className='seconds'>1s
           </span><span> 241 likes </span></p>
           <span>
           </span>
 
-<div className='scrollDisplay'>
-  <hr className='linemore'/>
+          <div className='scrollDisplay'>
+            <hr className='linemore' />
 
-<span className='seemore'>View 2 more replies </span>
+            <span className='seemore'>View 2 more replies </span>
 
-</div>
+          </div>
           <h2></h2>
 
         </div>
