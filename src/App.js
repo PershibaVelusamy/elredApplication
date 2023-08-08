@@ -38,14 +38,13 @@ function App() {
           <span className="profileText">Profile</span>
         </div>
       </nav>
-      {
-        openToast && <div>
-          <div class="alert alert-info mt-3">
+
+     
+          <div class={openToast?`alert alert-info mt-3 toastvisible`:`alert alert-info mt-3 toast`}>
             <strong>Info!</strong> Comming soon..
           </div>
-        </div>
-
-      }
+       
+     
       <div className='profilewrapper profileDetail'>
 
         <img src={girl} alt='profilegirl' />
@@ -278,76 +277,81 @@ function App() {
         <div className='comments'>
           <div className='intextWrap'><span className='testimonalText'> Comments </span> <span onClick={() => openToastcominSoon()} className='testimonalSeeAll'>See all</span></div>
 
-          <div className='commentMain'>
+          <div className='commentscroller'>
 
-            <img className='commentImg' src={Gwen} alt="Gwen" />
-            <p className='CommentText'>
-              <span className='addWeight'>
-                Gwen Stacy
-              </span>&nbsp;
-              See you in the next event &nbsp;
-              <span>
-                @chachachaudhari
-              </span>
-            </p>
+            <div className='commentMain'>
+
+              <img className='commentImg' src={Gwen} alt="Gwen" />
+              <p className='CommentText'>
+                <span className='addWeight'>
+                  Gwen Stacy
+                </span>&nbsp;
+                See you in the next event &nbsp;
+                <span>
+                  @chachachaudhari
+                </span>
+              </p>
+
+            </div>
+            <p className='timestamp'><span className='seconds'>1s
+            </span><span> 241 likes </span></p>
+
+            <div className='commentMain'>
+
+              <img className='commentImg' src={gen} alt="Gwen" />
+              <p className='CommentText'>
+                <span className='addWeight'>
+                  Gwen Stacy
+                </span>&nbsp;
+                See you in the next event &nbsp;
+                <span>
+                  @chachachaudhari
+                </span>
+              </p>
+
+            </div>
+            <p className='timestamp'><span className='seconds'>1s
+            </span><span> 241 likes </span></p>
+
+
+            <div className='commentMain'>
+
+              <img className='commentImg' src={Gwen} alt="Gwen" />
+              <p className='CommentText'>
+                <span className='addWeight'>
+                  Gwen Stacy
+                </span>&nbsp;
+                See you in the next event &nbsp;
+                <span>
+                  @chachachaudhari
+                </span>
+              </p>
+
+            </div>
+            <p className='timestamp'><span className='seconds'>1s
+            </span><span> 241 likes </span></p>
+
+            <div className='commentMain'>
+
+              <img className='commentImg' src={gen} alt="Gwen" />
+              <p className='CommentText'>
+                <span className='addWeight'>
+                  Gwen Stacy
+                </span>&nbsp;
+                See you in the next event &nbsp;
+                <span>
+                  @chachachaudhari
+                </span>
+              </p>
+
+            </div>
+            <p className='timestamp'><span className='seconds'>1s
+            </span><span> 241 likes </span></p>
+            <span>
+            </span>
 
           </div>
-          <p className='timestamp'><span className='seconds'>1s
-          </span><span> 241 likes </span></p>
 
-          <div className='commentMain'>
-
-            <img className='commentImg' src={gen} alt="Gwen" />
-            <p className='CommentText'>
-              <span className='addWeight'>
-                Gwen Stacy
-              </span>&nbsp;
-              See you in the next event &nbsp;
-              <span>
-                @chachachaudhari
-              </span>
-            </p>
-
-          </div>
-          <p className='timestamp'><span className='seconds'>1s
-          </span><span> 241 likes </span></p>
-
-
-          <div className='commentMain'>
-
-            <img className='commentImg' src={Gwen} alt="Gwen" />
-            <p className='CommentText'>
-              <span className='addWeight'>
-                Gwen Stacy
-              </span>&nbsp;
-              See you in the next event &nbsp;
-              <span>
-                @chachachaudhari
-              </span>
-            </p>
-
-          </div>
-          <p className='timestamp'><span className='seconds'>1s
-          </span><span> 241 likes </span></p>
-
-          <div className='commentMain'>
-
-            <img className='commentImg' src={gen} alt="Gwen" />
-            <p className='CommentText'>
-              <span className='addWeight'>
-                Gwen Stacy
-              </span>&nbsp;
-              See you in the next event &nbsp;
-              <span>
-                @chachachaudhari
-              </span>
-            </p>
-
-          </div>
-          <p className='timestamp'><span className='seconds'>1s
-          </span><span> 241 likes </span></p>
-          <span>
-          </span>
 
           <div className='scrollDisplay'>
             <hr className='linemore' />
