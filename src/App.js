@@ -53,7 +53,7 @@ function App() {
             Alexandra Stanton
           </p>
           <p className='designation'><img src={beifcase} className='locatImg' alt='brief' /><span className='breifName'>Realtor | VP design</span></p>
-          <p className='location'><img src={locate} className="locatImg" alt='location' /><span className='locateName'>Bangalore, India</span></p>
+          <p className='location'><img src={locate} className="locatImg1" alt='location' /><span className='locateName'>Bangalore, India</span></p>
 
         </div>
         <img className='frame' src={frame} alt='frame' />
