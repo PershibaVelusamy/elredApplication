@@ -14,20 +14,21 @@ import pinlogo from './assets/Union.png'
 import skillimg from './assets/Group 13777.png'
 import vector from './assets/Vector.png'
 import Gwen from './assets/Ellipse 166.png'
+import gen from './assets/Ellipse 166 (1).png'
 import prosmall from './assets/Ellipse 152.png'
 import { useState } from 'react';
 function App() {
 
-const [openToast,setopenToast]=  useState(false)
+  const [openToast, setopenToast] = useState(false)
 
- const openToastcominSoon=()=>{
+  const openToastcominSoon = () => {
 
-  setopenToast(true)
+    setopenToast(true)
 
-  setTimeout(()=>{
-    setopenToast(false)
-  },2000)
- }
+    setTimeout(() => {
+      setopenToast(false)
+    }, 2000)
+  }
 
 
   return (
@@ -38,11 +39,11 @@ const [openToast,setopenToast]=  useState(false)
         </div>
       </nav>
       {
-      openToast&&<div>
-         <div class="alert alert-info mt-3">
-    <strong>Info!</strong> Comming soon..
-  </div>
-      </div>
+        openToast && <div>
+          <div class="alert alert-info mt-3">
+            <strong>Info!</strong> Comming soon..
+          </div>
+        </div>
 
       }
       <div className='profilewrapper profileDetail'>
@@ -64,7 +65,7 @@ const [openToast,setopenToast]=  useState(false)
           <img className='shareimg' src={share} alt="share" />
         </div>
         <div className='offercarrosel'>
-          <div className='intextWrap'><span className='intext'> I can offer </span> <span onClick={()=>openToastcominSoon()}  className='seeall'>See all</span></div>
+          <div className='intextWrap'><span className='intext'> I can offer </span> <span onClick={() => openToastcominSoon()} className='seeall'>See all</span></div>
 
 
           <div class="scroll-container">
@@ -132,21 +133,9 @@ const [openToast,setopenToast]=  useState(false)
         </div>
 
         <div className='testimonalWrapper'>
-          <div className='intextWrap'><span className='testimonalText'> Testimonals </span> <span   onClick={()=>openToastcominSoon()}className='testimonalSeeAll'>See all</span></div>
+          <div className='intextWrap'><span className='testimonalText'> Testimonals </span> <span onClick={() => openToastcominSoon()} className='testimonalSeeAll'>See all</span></div>
 
           <div className='testiWrapper'>
-            <div className='subTestimonal'>
-              <img src={picbanner} alt="Los Angeles" className="testimonalimage" />
-              <img className="quotedimg" src={quotes} alt='quotesimg' />
-              <p className='imgaeTExtmulti'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,... </p>
-              <img className='Propic' src={prosmall} alt='eclips' />
-              <p className='proName'>Saurabh Goswamy</p>
-              <div className='pinned'>
-                <span className='pinnedText'>14 Dec 2022</span>
-                <img src={pinlogo} alt='pinned' />
-              </div>
-
-            </div>
             <div className='subTestimonal'>
               <img src={picbanner} alt="Los Angeles" className="testimonalimage" />
               <img className="quotedimg" src={quotes} alt='quotesimg' />
@@ -235,7 +224,7 @@ const [openToast,setopenToast]=  useState(false)
 
         </div>
         <div className='Need'>
-          <div className='intextWrap'><span className='testimonalText'> I need </span> <span  onClick={()=>openToastcominSoon()}  className='testimonalSeeAll'>See all</span></div>
+          <div className='intextWrap'><span className='testimonalText'> I need </span> <span onClick={() => openToastcominSoon()} className='testimonalSeeAll'>See all</span></div>
 
           <div className='scrollableneed'>
             <div className='needsub'>
@@ -249,11 +238,11 @@ const [openToast,setopenToast]=  useState(false)
             </div>
             <div className='needsub'>
               <p className='needDate'>
-                7 June 2023
+                7 April 2023
               </p>
               <p className='needrequest'>
 
-                I need a apartment in Mumbai
+                I need a villa in Chennai
               </p>
             </div>
             <div className='needsub'>
@@ -267,16 +256,16 @@ const [openToast,setopenToast]=  useState(false)
             </div>
             <div className='needsub'>
               <p className='needDate'>
-                7 June 2023
+                9 July 2023
               </p>
               <p className='needrequest'>
 
-                I need a apartment in Mumbai
+                I need a flat and appartment in pune
               </p>
             </div>
             <div className='needsub'>
               <p className='needDate'>
-                7 June 2023
+                6 May 2023
               </p>
               <p className='needrequest'>
 
@@ -287,7 +276,7 @@ const [openToast,setopenToast]=  useState(false)
 
         </div>
         <div className='comments'>
-          <div className='intextWrap'><span className='testimonalText'> Comments </span> <span  onClick={()=>openToastcominSoon()}  className='testimonalSeeAll'>See all</span></div>
+          <div className='intextWrap'><span className='testimonalText'> Comments </span> <span onClick={() => openToastcominSoon()} className='testimonalSeeAll'>See all</span></div>
 
           <div className='commentMain'>
 
@@ -308,7 +297,7 @@ const [openToast,setopenToast]=  useState(false)
 
           <div className='commentMain'>
 
-            <img className='commentImg' src={Gwen} alt="Gwen" />
+            <img className='commentImg' src={gen} alt="Gwen" />
             <p className='CommentText'>
               <span className='addWeight'>
                 Gwen Stacy
@@ -343,7 +332,7 @@ const [openToast,setopenToast]=  useState(false)
 
           <div className='commentMain'>
 
-            <img className='commentImg' src={Gwen} alt="Gwen" />
+            <img className='commentImg' src={gen} alt="Gwen" />
             <p className='CommentText'>
               <span className='addWeight'>
                 Gwen Stacy
