@@ -509,12 +509,16 @@ left: 36px; */
 
 
 .pinned {
+
+
+
+
   position: absolute;
-  width: 98px;
+  /* width: 98px; */
   height: 18px;
-  top: -15px;
+  top: 3px;
   text-align: right;
-  left: 195px;
+  
 
 }
 

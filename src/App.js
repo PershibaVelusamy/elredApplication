@@ -39,12 +39,12 @@ function App() {
         </div>
       </nav>
 
-     
-          <div class={openToast?`alert alert-info mt-3 toastvisible`:`alert alert-info mt-3 toast`}>
-            <strong>Info!</strong> Comming soon..
-          </div>
-       
-     
+
+      <div class={openToast ? `alert alert-info mt-3 toastvisible` : `alert alert-info mt-3 toast`}>
+        <strong>Info!</strong> Comming soon..
+      </div>
+
+
       <div className='profilewrapper profileDetail'>
 
         <img src={girl} alt='profilegirl' />
@@ -142,7 +142,7 @@ function App() {
               <img className='Propic' src={prosmall} alt='eclips' />
               <p className='proName'>Saurabh Goswamy</p>
               <div className='pinned'>
-                <span className='pinnedText'>14 Dec 2022</span>
+                <span className='pinnedText'>4 Dec 2022</span>
                 <img src={pinlogo} alt='pinned' />
               </div>
 
@@ -154,7 +154,7 @@ function App() {
               <img className='Propic' src={prosmall} alt='eclips' />
               <p className='proName'>Saurabh Goswamy</p>
               <div className='pinned'>
-                <span className='pinnedText'>14 Dec 2022</span>
+                <span className='pinnedText'>4 Dec 2022</span>
                 <img src={pinlogo} alt='pinned' />
               </div>
 
@@ -166,7 +166,7 @@ function App() {
               <img className='Propic' src={prosmall} alt='eclips' />
               <p className='proName'>Saurabh Goswamy</p>
               <div className='pinned'>
-                <span className='pinnedText'>14 Dec 2022</span>
+                <span className='pinnedText'>4 Dec 2022</span>
                 <img src={pinlogo} alt='pinned' />
               </div>
 
@@ -178,7 +178,7 @@ function App() {
               <img className='Propic' src={prosmall} alt='eclips' />
               <p className='proName'>Saurabh Goswamy</p>
               <div className='pinned'>
-                <span className='pinnedText'>14 Dec 2022</span>
+                <span className='pinnedText'>4 Dec 2022</span>
                 <img src={pinlogo} alt='pinned' />
               </div>
 
@@ -190,7 +190,7 @@ function App() {
               <img className='Propic' src={prosmall} alt='eclips' />
               <p className='proName'>Saurabh Goswamy</p>
               <div className='pinned'>
-                <span className='pinnedText'>14 Dec 2022</span>
+                <span className='pinnedText'>4 Dec 2022</span>
                 <img src={pinlogo} alt='pinned' />
               </div>
 
